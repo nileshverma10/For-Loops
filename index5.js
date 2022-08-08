@@ -1,10 +1,9 @@
-function divisibleByK(num,k) {
-    //write code here
-    for( let i=1;i<=num;i++){
-        if(i%k==0){
-        console.log(i);
-        }
-        
-    }
-    
+function sumTillNTwice(num){
+	//Write the code
+	let sum=0;
+	for(i=1; i<=num;i++){
+	    sum=sum+i+i;
+	    
+	}
+	console.log(sum);
 }

@@ -1,10 +1,13 @@
-function masaiDivisors(left, right, k) {
-    //write code here
-    count=0;
-    for(let i=left; i<=right; i++){
-        if(i%k==0){
-            count++;
-        }
-    }
-    console.log(count);
+function theLastDigit(number) {
+    // Write code here
+      
+        
+            if(number%3==0){
+                console.log("Divisible");
+            }else{
+                console.log("Not Divisible");
+            }
+            
+         
+    
 }
